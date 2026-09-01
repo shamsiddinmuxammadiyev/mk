@@ -809,7 +809,7 @@ teachers_info_list = [
 kanal = ['@Dehqonobod_Ixtisoslashtirilgan_M']
 CHANNEL_USERNAME = kanal[0]
 
-TOKEN = "8216327788:AAEXrmPsHPScHq3d1KF_N7fwdeCPR8q0QyA"
+TOKEN = "8808030130:AAFEx0O4Y03YByPVZ4U2IAQkKCm_3DKVoHM"
 bot = TeleBot(TOKEN)
 
 
