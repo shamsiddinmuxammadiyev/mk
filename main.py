@@ -806,7 +806,7 @@ teachers_info_list = [
     }
 ]
 
-kanal = ['@Dehqonobod_Ixtisoslashtirilgan_M']
+kanal = ['@asdfghjkloiuytrewqpo']
 CHANNEL_USERNAME = kanal[0]
 
 TOKEN = os.environ.get("BOT_TOKEN")
