@@ -809,7 +809,9 @@ teachers_info_list = [
 kanal = ['@Dehqonobod_Ixtisoslashtirilgan_M']
 CHANNEL_USERNAME = kanal[0]
 
-TOKEN = "8808030130:AAGpr2xCGJZuQUObKEC_kWDC-y8Iu0Ql1ns"
+TOKEN = os.environ.get("BOT_TOKEN")
+if not TOKEN:
+    raise RuntimeError("BOT_TOKEN environment variable topilmadi! Railway Variables bo'limiga qo'shing.")
 bot = TeleBot(TOKEN)
 
 
